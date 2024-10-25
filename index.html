@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<title>Ancora | Home</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<!-- Preloader -->
+	<!-- <div class="loader-wrapper">
+		<div class="loader"></div>
+	</div> -->
+	<!-- Preloader -->
+
+	<!-- Main -->
+	<div class="main">
+		<!-- Nav -->
+		<header>
+
+			<nav>
+
+				<div id="navbar" class="transition">
+					<div class="logoWrap">
+						<div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;" onclick="openNav()">☰</div>
+						<a class="mainLogo" href="index.html"><img src="image/logo/logo.svg" alt="Logo"></a>
+					</div>
+					<div id="links">
+						<a href="">Home</a>
+						<a href="">About Us</a>
+						<a href="">Promotions</a>
+						<a href="">Events</a>
+						<a href="">Gallery</a>
+						<a href="">Contact us</a>
+					</div>
+				</div>
+
+			</nav>
+			<!-- Mobile Menu -->
+			<div id="mySidenav" class="sidenav">
+				<a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="">Home</a>
+				<a href="">About Us</a>
+				<a href="">Promotions</a>
+				<a href="">Events</a>
+				<a href="">Gallery</a>
+				<a href="">Contact us</a>
+			</div>
+		</header>
+		<!-- Nav -->
+
+		<!-- Banner -->
+		<div class="banner">
+			<div class="bannerContent">
+				<h3>Inspired by the <br>Mediterranean Way <br>Of Living</h3>
+				<button class="cButton greyButton">Reserve Table</button>
+			</div>
+			<div class="bannerFade">
+				<div class="bannerImg">
+					<img src="image/banner/b1.jpg" alt="Banner Image">
+				</div>
+				<div class="bannerImg">
+					<img src="image/banner/b1.jpg" alt="Banner Image">
+				</div>
+				<div class="bannerImg">
+					<img src="image/banner/b1.jpg" alt="Banner Image">
+				</div>
+			</div>
+		</div>
+		<!-- Banner -->
+
+		<!-- About -->
+		<div class="sector2">
+			<div class="sector2Inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+							<div class="abtLeftContent d-flex flex-column">
+								<h2 class="sectionTitle greyFont">ABOUT US</h2>
+								<p class="sectionPara greyFont aboutUsPara">Immerse yourself in a culinary journey
+									inspired by the
+									Mediterranean way of living at
+									our restaurant. With each dish, we
+									celebrate the vibrant flavors and wholesome ingredients that define this rich
+									culinary tradition.</p>
+								<button class="cButton greyButton">Read More</button>
+							</div>
+
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+							<div class="aboutRightImgContent">
+								<img src="image/banner/abtRect1.png" alt="About Us">
+								<img src="image/banner/abtRect2.png" alt="About Us">
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- About -->
+
+		<!-- PROMOTIONS -->
+		<div class="sector3">
+			<div class="sector3Inner">
+				<svg class="promoAniEle1" width="162" height="65" viewBox="0 0 162 65" fill="none"
+					xmlns="http://www.w3.org/2000/svg">
+					<path id="wave"
+						d="M0.768245 2.32143C6.00594 0.75 11.1493 3.32143 15.4904 6.13095C20.2562 9.27381 24.6446 13.0833 29.7407 15.6548C34.4121 18.0357 39.4611 18.75 44.1797 16.131C47.1053 14.5119 49.559 12.131 52.0599 9.94048C54.5607 7.75 57.2504 5.41667 60.5062 4.46429C66.6405 2.75 72.3972 7.46429 77.1158 10.75C81.9288 14.131 87.2137 17.75 93.348 16.6548C99.3406 15.6071 104.342 11.2738 109.203 7.89286C113.968 4.5119 119.489 0.845238 125.576 1.9881C131.475 3.08333 136.476 7.13095 141.431 10.2738C145.725 12.9881 150.963 15.9405 156.2 14.5119C157.474 14.131 158.701 13.5119 159.786 12.75C160.353 12.369 159.834 11.4167 159.267 11.7976C157.002 13.4167 154.36 14.0833 151.623 13.6548C148.886 13.2262 146.338 11.8929 143.932 10.5119C138.788 7.51191 134.07 3.60714 128.455 1.65476C115.997 -2.67857 107.174 10.131 96.8398 14.5119C94.1501 15.6548 91.1774 16.2262 88.299 15.5595C85.2791 14.8929 82.5895 13.2262 80.0414 11.5119C75.1812 8.22619 70.1322 3.55952 63.998 3.08333C57.4863 2.55952 52.6261 8.17857 48.049 12.0357C45.6425 14.0833 43.0001 16.0357 39.8386 16.6548C37.3377 17.131 34.7896 16.6548 32.4303 15.75C27.1454 13.7024 22.7099 9.89286 18.0857 6.70238C13.9804 3.79762 9.2618 0.75 4.07129 0.75C2.84445 0.75 1.66479 0.940476 0.485127 1.27381C-0.175483 1.46429 0.107636 2.5119 0.768245 2.32143Z"
+						fill="white" />
+					<path id="wave"
+						d="M0.768224 26.4166C6.00591 24.8451 11.1492 27.4166 15.4904 30.2261C20.2562 33.369 24.6445 37.1309 29.7407 39.7499C34.4121 42.1309 39.4611 42.8451 44.1797 40.2261C47.1053 38.6071 49.559 36.2261 52.0598 34.0356C54.5607 31.8451 57.2503 29.5118 60.5062 28.5594C66.6404 26.8451 72.3972 31.5594 77.1158 34.8451C81.9288 38.2261 87.2137 41.8451 93.3479 40.7499C99.3406 39.7023 104.342 35.369 109.203 31.988C113.968 28.6071 119.489 24.9404 125.576 26.0832C131.475 27.1785 136.476 31.2261 141.431 34.369C145.725 37.0832 150.963 40.0356 156.2 38.6071C157.474 38.2261 158.701 37.6071 159.786 36.8451C160.353 36.4642 159.834 35.5118 159.267 35.8928C157.002 37.5118 154.36 38.1785 151.623 37.7499C148.886 37.3213 146.338 35.988 143.932 34.6071C138.836 31.6071 134.117 27.7023 128.502 25.7499C116.045 21.4166 107.221 34.2261 96.8869 38.6071C94.1973 39.7499 91.2245 40.3213 88.3462 39.6547C85.3262 38.988 82.6366 37.3213 80.0886 35.6071C75.2284 32.3213 70.1794 27.6547 64.0452 27.1785C57.5335 26.6547 52.6733 32.2737 48.0962 36.1309C45.6897 38.1785 43.0472 40.1309 39.8857 40.7499C37.3849 41.2261 34.8368 40.7499 32.4775 39.8451C27.1926 37.7975 22.7571 33.988 18.1328 30.7975C14.0276 27.9404 9.30896 24.8928 4.11846 24.8928C2.89161 24.8928 1.66477 25.0832 0.532292 25.4166C-0.175504 25.5594 0.107614 26.6071 0.768224 26.4166Z"
+						fill="white" />
+					<path id="wave"
+						d="M1.85355 49.2738C7.09124 47.7023 12.2346 50.2738 16.5757 53.0833C21.3415 56.1785 25.7299 59.9881 30.826 62.5595C35.4975 64.9404 40.5464 65.6547 45.265 63.0357C48.1906 61.4166 50.6443 59.0357 53.1452 56.8452C55.646 54.6547 58.3357 52.3214 61.5915 51.369C67.7258 49.6547 73.4825 54.369 78.2011 57.6547C83.0142 61.0357 88.299 64.6547 94.4333 63.5595C100.426 62.5119 105.428 58.1785 110.288 54.7976C115.054 51.4166 120.575 47.75 126.662 48.8928C132.56 49.988 137.562 54.0357 142.516 57.1785C146.81 59.8928 152.048 62.8452 157.286 61.4166C158.56 61.0357 159.786 60.4166 160.872 59.6547C161.438 59.2738 160.919 58.3214 160.353 58.7023C158.088 60.3214 155.445 60.9881 152.708 60.5595C149.972 60.1309 147.424 58.7976 145.017 57.4166C139.921 54.4166 135.202 50.5119 129.587 48.5595C117.13 44.2261 108.306 57.0357 97.9722 61.4166C95.2826 62.5595 92.3099 63.0833 89.4315 62.4642C86.4116 61.7976 83.722 60.1309 81.1739 58.4166C76.3137 55.1309 71.2647 50.4642 65.1305 49.9881C58.6188 49.4642 53.7586 55.0833 49.1815 58.9404C46.775 60.988 44.1326 62.9404 40.9711 63.5595C38.4702 64.0357 35.9221 63.5595 33.5628 62.6547C28.2779 60.6071 23.7952 56.7976 19.2181 53.6071C15.1129 50.75 10.3943 47.7023 5.20379 47.7023C3.97694 47.7023 2.75009 47.8928 1.61762 48.2261C0.909823 48.4642 1.19294 49.4642 1.85355 49.2738Z"
+						fill="white" />
+				</svg>
+				<div class="container">
+					<div class="row">
+						<div class="promotionHeader d-flex flex-column">
+							<h5 class="sectionPreTitle">PROMOTIONS</h5>
+							<h3 class="sectionTitle">MORE THAN JUST A <br>DINING DESTINATION</h3>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row  py-5">
+						<div class="promotions-slider">
+							<div class="col-12">
+								<button class="slick-prev slick-arrow" aria-label="Previous" type="button"
+									style="display: block;"><img src="image/icons/leftArrow.svg"
+										alt="Left Arrow"></button>
+
+								<div class="promotions-card">
+									<div class="promotions-card-slide">
+										<div class="image">
+											<img src="./image/banner/p1.png" alt="Weekday Happy Hour Delight">
+										</div>
+										<div class="caption">
+											<h5>Weekday Happy Hour Delight</h5>
+											<p>Immerse yourself in a culinary journey inspired by the Mediterranean way
+												of living</p>
+											<button class="cButton greyButton">RESERVE NOW</button>
+										</div>
+									</div>
+									<div class="promotions-card-slide">
+										<div class="image">
+											<img src="./image/banner/p2.png" alt="Weekday Happy Hour Delight">
+										</div>
+										<div class="caption">
+											<h5>Celebrate with Us: Holiday Feast</h5>
+											<p>Immerse yourself in a culinary journey inspired by the Mediterranean way
+												of living</p>
+											<button class="cButton greyButton">RESERVE NOW</button>
+										</div>
+									</div>
+									<div class="promotions-card-slide">
+										<div class="image">
+											<img src="./image/banner/p3.png" alt="Weekday Happy Hour Delight">
+										</div>
+										<div class="caption">
+											<h5>Wine & Dine Wednesdays</h5>
+											<p>Immerse yourself in a culinary journey inspired by the Mediterranean way
+												of living</p>
+											<button class="cButton greyButton">RESERVE NOW</button>
+										</div>
+									</div>
+									<div class="promotions-card-slide">
+										<div class="image">
+											<img src="./image/banner/p1.png" alt="Weekday Happy Hour Delight">
+										</div>
+										<div class="caption">
+											<h5>Weekday Happy Hour Delight</h5>
+											<p>Immerse yourself in a culinary journey inspired by the Mediterranean way
+												of living</p>
+											<button class="cButton greyButton">RESERVE NOW</button>
+										</div>
+									</div>
+									<div class="promotions-card-slide">
+										<div class="image">
+											<img src="./image/banner/p2.png" alt="Weekday Happy Hour Delight">
+										</div>
+										<div class="caption">
+											<h5>Weekday Happy Hour Delight</h5>
+											<p>Immerse yourself in a culinary journey inspired by the Mediterranean way
+												of living</p>
+											<button class="cButton greyButton">RESERVE NOW</button>
+										</div>
+									</div>
+								</div>
+								<button class="slick-next slick-arrow" aria-label="Next" type="button"
+									style="display: block;"><img src="image/icons/rightArrow.svg"
+										alt="Right Arrow"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="promoButtonHolder d-flex justify-content-center">
+							<button class="cButton">View More</button>
+						</div>
+					</div>
+				</div>
+				<svg class="promoAniEle2" width="162" height="65" viewBox="0 0 162 65" fill="none"
+					xmlns="http://www.w3.org/2000/svg">
+					<path id="wave"
+						d="M0.768245 2.32143C6.00594 0.75 11.1493 3.32143 15.4904 6.13095C20.2562 9.27381 24.6446 13.0833 29.7407 15.6548C34.4121 18.0357 39.4611 18.75 44.1797 16.131C47.1053 14.5119 49.559 12.131 52.0599 9.94048C54.5607 7.75 57.2504 5.41667 60.5062 4.46429C66.6405 2.75 72.3972 7.46429 77.1158 10.75C81.9288 14.131 87.2137 17.75 93.348 16.6548C99.3406 15.6071 104.342 11.2738 109.203 7.89286C113.968 4.5119 119.489 0.845238 125.576 1.9881C131.475 3.08333 136.476 7.13095 141.431 10.2738C145.725 12.9881 150.963 15.9405 156.2 14.5119C157.474 14.131 158.701 13.5119 159.786 12.75C160.353 12.369 159.834 11.4167 159.267 11.7976C157.002 13.4167 154.36 14.0833 151.623 13.6548C148.886 13.2262 146.338 11.8929 143.932 10.5119C138.788 7.51191 134.07 3.60714 128.455 1.65476C115.997 -2.67857 107.174 10.131 96.8398 14.5119C94.1501 15.6548 91.1774 16.2262 88.299 15.5595C85.2791 14.8929 82.5895 13.2262 80.0414 11.5119C75.1812 8.22619 70.1322 3.55952 63.998 3.08333C57.4863 2.55952 52.6261 8.17857 48.049 12.0357C45.6425 14.0833 43.0001 16.0357 39.8386 16.6548C37.3377 17.131 34.7896 16.6548 32.4303 15.75C27.1454 13.7024 22.7099 9.89286 18.0857 6.70238C13.9804 3.79762 9.2618 0.75 4.07129 0.75C2.84445 0.75 1.66479 0.940476 0.485127 1.27381C-0.175483 1.46429 0.107636 2.5119 0.768245 2.32143Z"
+						fill="white" />
+					<path id="wave"
+						d="M0.768224 26.4166C6.00591 24.8451 11.1492 27.4166 15.4904 30.2261C20.2562 33.369 24.6445 37.1309 29.7407 39.7499C34.4121 42.1309 39.4611 42.8451 44.1797 40.2261C47.1053 38.6071 49.559 36.2261 52.0598 34.0356C54.5607 31.8451 57.2503 29.5118 60.5062 28.5594C66.6404 26.8451 72.3972 31.5594 77.1158 34.8451C81.9288 38.2261 87.2137 41.8451 93.3479 40.7499C99.3406 39.7023 104.342 35.369 109.203 31.988C113.968 28.6071 119.489 24.9404 125.576 26.0832C131.475 27.1785 136.476 31.2261 141.431 34.369C145.725 37.0832 150.963 40.0356 156.2 38.6071C157.474 38.2261 158.701 37.6071 159.786 36.8451C160.353 36.4642 159.834 35.5118 159.267 35.8928C157.002 37.5118 154.36 38.1785 151.623 37.7499C148.886 37.3213 146.338 35.988 143.932 34.6071C138.836 31.6071 134.117 27.7023 128.502 25.7499C116.045 21.4166 107.221 34.2261 96.8869 38.6071C94.1973 39.7499 91.2245 40.3213 88.3462 39.6547C85.3262 38.988 82.6366 37.3213 80.0886 35.6071C75.2284 32.3213 70.1794 27.6547 64.0452 27.1785C57.5335 26.6547 52.6733 32.2737 48.0962 36.1309C45.6897 38.1785 43.0472 40.1309 39.8857 40.7499C37.3849 41.2261 34.8368 40.7499 32.4775 39.8451C27.1926 37.7975 22.7571 33.988 18.1328 30.7975C14.0276 27.9404 9.30896 24.8928 4.11846 24.8928C2.89161 24.8928 1.66477 25.0832 0.532292 25.4166C-0.175504 25.5594 0.107614 26.6071 0.768224 26.4166Z"
+						fill="white" />
+					<path id="wave"
+						d="M1.85355 49.2738C7.09124 47.7023 12.2346 50.2738 16.5757 53.0833C21.3415 56.1785 25.7299 59.9881 30.826 62.5595C35.4975 64.9404 40.5464 65.6547 45.265 63.0357C48.1906 61.4166 50.6443 59.0357 53.1452 56.8452C55.646 54.6547 58.3357 52.3214 61.5915 51.369C67.7258 49.6547 73.4825 54.369 78.2011 57.6547C83.0142 61.0357 88.299 64.6547 94.4333 63.5595C100.426 62.5119 105.428 58.1785 110.288 54.7976C115.054 51.4166 120.575 47.75 126.662 48.8928C132.56 49.988 137.562 54.0357 142.516 57.1785C146.81 59.8928 152.048 62.8452 157.286 61.4166C158.56 61.0357 159.786 60.4166 160.872 59.6547C161.438 59.2738 160.919 58.3214 160.353 58.7023C158.088 60.3214 155.445 60.9881 152.708 60.5595C149.972 60.1309 147.424 58.7976 145.017 57.4166C139.921 54.4166 135.202 50.5119 129.587 48.5595C117.13 44.2261 108.306 57.0357 97.9722 61.4166C95.2826 62.5595 92.3099 63.0833 89.4315 62.4642C86.4116 61.7976 83.722 60.1309 81.1739 58.4166C76.3137 55.1309 71.2647 50.4642 65.1305 49.9881C58.6188 49.4642 53.7586 55.0833 49.1815 58.9404C46.775 60.988 44.1326 62.9404 40.9711 63.5595C38.4702 64.0357 35.9221 63.5595 33.5628 62.6547C28.2779 60.6071 23.7952 56.7976 19.2181 53.6071C15.1129 50.75 10.3943 47.7023 5.20379 47.7023C3.97694 47.7023 2.75009 47.8928 1.61762 48.2261C0.909823 48.4642 1.19294 49.4642 1.85355 49.2738Z"
+						fill="white" />
+				</svg>
+			</div>
+		</div>
+		<!-- PROMOTIONS -->
+
+		<!-- Events -->
+		<div class="sector4">
+			<div class="sector4Inner">
+				<div class="container">
+					<div class="row">
+						<h3 class="sectionTitle greyFont">Events</h3>
+					</div>
+				</div>
+				<div class="container-fluid-right">
+					<div class="row">
+						<div class="events-slider">
+							<div class="col-12">
+								<div class="events-card">
+									<div class="events-card-slide">
+										<div class="image">
+											<img src="./image/banner/e1.jpg" alt="Event Picture">
+										</div>
+										<div class="eventCaption">
+											<h5>WEDDING EVENT</h5>
+											<h3>DChef’s Table Experience: A Culinary Journey</h3>
+											<p>Immerse yourself in a culinary journey inspired by the Mediterranean way
+												of living at our restaurant. With each dish, we
+												celebrate the vibrant flavors...</p>
+										</div>
+										<div class="eventBottom d-flex align-items-center justify-content-between">
+											<span>RESERVE YOUR SPOT FOR<br> AN EXCLUSIVE MEAL</span>
+											<a href="#">
+												<img src="image/icons/rightArrow.svg" alt="Right Arrow">
+											</a>
+										</div>
+									</div>
+
+									<div class="events-card-slide">
+										<div class="image">
+											<img src="./image/banner/e1.jpg" alt="Event Picture">
+										</div>
+										<div class="eventCaption">
+											<h5>VALENTINE EVENT</h5>
+											<h3>Date Night Special: Romantic Dinner Under the Stars</h3>
+											<p>Surprise your special someone with a romantic Date Night Dinner. Enjoy a
+												candlelit meal on our terrace, featuring a
+												specially curated menu...</p>
+										</div>
+										<div class="eventBottom d-flex align-items-center justify-content-between">
+											<span>Your Table Awaits –<br> Reserve Now</span>
+											<a href="#">
+												<img src="image/icons/rightArrow.svg" alt="Right Arrow">
+											</a>
+										</div>
+									</div>
+
+									<div class="events-card-slide">
+										<div class="image">
+											<img src="./image/banner/e1.jpg" alt="Event Picture">
+										</div>
+										<div class="eventCaption">
+											<h5>BRITHDAY EVENT</h5>
+											<h3>Cocktail Mixology Night: Shake, Stir, Sip</h3>
+											<p>Unleash your inner mixologist at our Cocktail Mixology Night. Learn the
+												art of crafting signature cocktails with our
+												talented bartenders, and enjoy a lively...</p>
+										</div>
+										<div class="eventBottom d-flex align-items-center justify-content-between">
+											<span>Book Your Table for<br> a Night of Delight</span>
+											<a href="#">
+												<img src="image/icons/rightArrow.svg" alt="Right Arrow">
+											</a>
+										</div>
+									</div>
+									<div class="events-card-slide">
+										<div class="image">
+											<img src="./image/banner/e1.jpg" alt="Event Picture">
+										</div>
+										<div class="eventCaption">
+											<h5>WEDDING EVENT</h5>
+											<h3>DChef’s Table Experience: A Culinary Journey</h3>
+											<p>Immerse yourself in a culinary journey inspired by the Mediterranean way
+												of living at our restaurant. With each dish, we
+												celebrate the vibrant flavors...</p>
+										</div>
+										<div class="eventBottom d-flex align-items-center justify-content-between">
+											<span>RESERVE YOUR SPOT FOR<br> AN EXCLUSIVE MEAL</span>
+											<a href="#">
+												<img src="image/icons/rightArrow.svg" alt="Right Arrow">
+											</a>
+										</div>
+									</div>
+
+									<div class="events-card-slide">
+										<div class="image">
+											<img src="./image/banner/e1.jpg" alt="Event Picture">
+										</div>
+										<div class="eventCaption">
+											<h5>VALENTINE EVENT</h5>
+											<h3>Date Night Special: Romantic Dinner Under the Stars</h3>
+											<p>Surprise your special someone with a romantic Date Night Dinner. Enjoy a
+												candlelit meal on our terrace, featuring a
+												specially curated menu...</p>
+										</div>
+										<div class="eventBottom d-flex align-items-center justify-content-between">
+											<span>Your Table Awaits –<br> Reserve Now</span>
+											<a href="#">
+												<img src="image/icons/rightArrow.svg" alt="Right Arrow">
+											</a>
+										</div>
+									</div>
+
+									<div class="events-card-slide">
+										<div class="image">
+											<img src="./image/banner/e1.jpg" alt="Event Picture">
+										</div>
+										<div class="eventCaption">
+											<h5>BRITHDAY EVENT</h5>
+											<h3>Cocktail Mixology Night: Shake, Stir, Sip</h3>
+											<p>Unleash your inner mixologist at our Cocktail Mixology Night. Learn the
+												art of crafting signature cocktails with our
+												talented bartenders, and enjoy a lively...</p>
+										</div>
+										<div class="eventBottom d-flex align-items-center justify-content-between">
+											<span>Book Your Table for<br> a Night of Delight</span>
+											<a href="#">
+												<img src="image/icons/rightArrow.svg" alt="Right Arrow">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="eventButtonHolder d-flex justify-content-center">
+							<button class="cButton greyButton">View More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Events -->
+
+		<!-- GALLERY -->
+		<div class="sector5">
+			<div class="sector5Inner">
+				<div class="container">
+					<div class="row  py-5">
+						<div class="gallery-filter">
+							<div class="col-12">
+								<h3 class="sectionTitle">Gallery</h3>
+								<div class="buttons">
+									<button class="button all active">All</button>
+									<button class="button Drunch">ANCORA Drunch</button>
+									<button class="button Interior">ANORA Interior</button>
+									<button class="button Iftar">Iftar</button>
+									<button class="button Shisha">Shisha</button>
+									<button class="button Breakfast">ANCORA Breakfast</button>
+									<button class="button Cocktail">Cocktail</button>
+									<button class="button Food">Food</button>
+								</div>
+
+								<div class="grid">
+									<div class="item Breakfast"><img src="./image/gallery/Rectangle 37.jpg" alt="">
+									</div>
+									<div class="item Drunch"><img src="./image/gallery/Rectangle 36.jpg" alt=""></div>
+									<div class="item Food"><img src="./image/gallery/Rectangle 36.jpg" alt=""></div>
+									<div class="item Food"><img src="./image/gallery/Rectangle 40.jpg" alt=""></div>
+									<div class="item Cocktails"><img src="./image/gallery/Rectangle 41.jpg" alt="">
+									</div>
+									<div class="item Drunch"><img src="./image/gallery/Rectangle 43.jpg" alt=""></div>
+									<div class="item Shisha"><img src="./image/gallery/Rectangle 41.jpg" alt=""></div>
+									<div class="item Interior"><img src="./image/gallery/Rectangle 41.jpg" alt=""></div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- GALLERY -->
+
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="row footerWrapTotal	">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+						<div class="footerLeft d-flex flex-column">
+							<h3 class="footerLogo">LOGO</h3>
+							<p class="sectionPara greyFont">Make sure you have the perfect spot by reserving your table
+								with us
+								today. Whether it’s a
+								romantic dinner, a family
+								gathering, or a night out with friends, we’re here to make it memorable."</p>
+							<button class="cButton greyButton">RESERVE A TABLE</button>
+							<h5>LOCATION</h5>
+							<p class="sectionPara greyFont">Sheikh Mohammed bin Rashid Boulevard,<br> Downtown Dubai,
+								Dubai, UAE.</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<div class="footerRight d-flex flex-column">
+							<h3 class="sectionTitle greyFont">Get a Taste of Something Special!</h3>
+							<p class="sectionPara greyFont">Sign up for our newsletter and receive exclusive discounts,
+								event invites, and sneak
+								peeks of
+								new dishes. Your next
+								great meal starts here!"</p>
+							<span>STAY CONNECTED</span>
+							<div class="messageBox d-flex">
+								<input type="text" placeholder="Enter your email address">
+								<button class="cButton greyButton">SIGN UP NOW</button>
+							</div>
+							<div class="socialMedia">
+								<div class="socialHead">
+									STAY CONNECTED
+								</div>
+								<div class="socialIcon d-flex justify-content-start">
+									<button href="#"><img src="image/icons/ig.png" alt="Instagram"></button>
+									<button href="#"><img src="image/icons/x.png" alt="X"></button>
+									<button href="#"><img src="image/icons/fb.png" alt="Facebook"></button>
+									<button href="#"><img src="image/icons/li.png" alt="LinkedIn"></button>
+									<button href="#"><img src="image/icons/yt.png" alt="YouTube"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="container">
+
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<div class="footer-left-bottom">
+							<span>© 2024 ANCORA | IHG HOTELS, ALL RIGHTS RESERVED</span>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<div class="footer-right-bottom">
+							<ul>
+								<li><a href="">Promotions</a></li>
+								<li><a href="">Events</a></li>
+								<li><a href="">Gallery</a></li>
+								<li><a href="">Contact us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer -->
+
+	</div>
+	<!-- Main -->
+
+
+
+
+	<!-- Page cursor -->
+
+	<div class='cursor' id="cursor"></div>
+	<div class='cursor2' id="cursor2"></div>
+	<div class='cursor3' id="cursor3"></div>
+
+	<!-- Page cursor -->
+
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery-migrate.js"></script>
+	<script src="js/slick.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
